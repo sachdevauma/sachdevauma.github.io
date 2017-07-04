@@ -1,0 +1,170 @@
+	@font-face {
+    	font-family: 'Bitter';
+    	src: url('Bitter-Regular.ttf');
+	}
+
+	@font-face {
+    	font-family: 'Patric';
+    	src: url('PatrickHandSC-Regular.ttf');
+	}
+
+	html {
+  		height: 100%;
+  		box-sizing: border-box;	
+	}
+
+	body{
+		background: white;
+		margin: 0;
+		padding: 0;
+	}
+
+	#Parent{
+		position: relative;
+		z-index: 1;
+		height: 50px;
+		margin: auto;
+		margin-top: 0;
+		padding-top: 0;
+		margin-bottom: 0px;
+		background: #2e60b3;
+		box-shadow: 0 2px 2px #144e7a;
+	
+	}
+
+	#new{
+			width: 450px;
+			margin:auto;
+			padding-top: 15px;
+			padding-bottom: 10px;
+			overflow: hidden;
+	}
+	#new li{
+			display: inline;
+			list-style: none;
+			padding-right: 20px;
+			margin-right: 20px;
+		}
+
+	#new li:last-child {
+		padding-right: 0;
+		margin-right: 0;
+	}
+
+	#new li a{
+		text-decoration:none;
+		color: white;
+		font-family: "Bitter";
+		font-size: 17px;
+	}
+
+	#new li a:hover{
+		color: #f5ed1f;
+	}
+
+
+	.fit{
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	.center{
+		display: block;
+		margin: auto;
+	}
+
+	#back{
+		margin-top: 0;
+	}
+
+	#icon {
+		margin: auto;
+		position: relative;
+		bottom: 125px;
+		margin-bottom: 0;
+	}
+	
+	#Content {
+		width: 700px;
+		margin: auto;
+		margin-top: -8%;
+	}
+
+	#Content h2{
+		color: black;
+		font-family:"Segoe UI";
+	}
+	#Content p{
+		color: black;
+		font-size: 20px;
+		text-align: justify;
+		font-family: "Segoe UI";
+		padding-bottom: 50px;
+	
+	}
+	#Content1 {
+		width: 700px;
+		margin: auto;
+		margin-top: -8%;
+	}
+
+	#Content1 h2{
+		color: red;
+		font-size: 22px;
+		font-family:"Bitter";
+	}
+
+	#Content1 h3{
+		color:BLUE;
+		font-size: 20px;
+		font-family: "Bitter";
+		margin-bottom: -2%;
+
+	}
+	#Content1 p{
+		color: black;
+		font-size: 18px;
+		text-align: justify;
+		font-family: "Bitter";
+		padding-bottom: 20px;
+	}
+
+	#footer{
+		background: #16609b;
+		color: white;
+		height: 200px;
+		margin-bottom: 4px;
+		box-shadow: 2px 0px 2px #144e7a;
+	}
+	
+
+	#new1{	
+			width: 400px;
+			margin:auto;
+			padding-top: 17px;
+			padding-bottom: 10px;
+			overflow: hidden;
+	}
+
+	#footer {
+		background-color: #1350b6;
+	}
+
+	#footer p {
+			font-family: "Bitter";
+			margin: auto;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			width: 250px;
+	}
+
+	#new1 li{
+			margin:auto;
+			display: inline;
+			list-style: none;		
+			margin-right: 20px;
+	}
+
+	#new1 li:first-child {
+		margin-right: 0px;
+	}
