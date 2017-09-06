@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	margin-left: 100px;
+	margin-right: 100px; 
+    padding: 0;
+	background-color: white;
+	font-family: "Quicksand";
+	color: #454545;
+	text-align: justify;
+}
+
+#name {
+	z-index: -1;
+	float: left;
+	font-size: 20px;
+	font-family: "Libre Baskerville";
+	margin-top: 20px;
+	margin-left: -70px;
+}
+
+#nav ul {
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 20px;
+	width: 150px;
+	margin:auto;
+	overflow: hidden;
+	font-size: 20px;
+}
+
+#nav ul li {
+	font-family: "Quicksand";
+	font-size: 17px;
+	color: black;
+	display: inline;
+	list-style: none;
+}
+
+.fit { /* set relative picture size */
+    	max-width: 100%;
+    	max-height: 100%;
+  	}
+.center {
+    	display: block;
+    	margin: auto;
+}
+
+.item {
+	background-image: url("images/block2.jpg");
+	background-repeat: no-repeat;
+	background-size: 20%;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+#content {
+	margin: auto;
+	margin-top: 100px;
+	height: 100%;
+	width: 775px;
+}
+
+#content i {
+	float: right;
+	font-size: 12px;
+}
+
+#content h2 {
+	font-size: 30px;
+	margin-bottom: 0px;
+	font-weight: normal;
+	font-family: "Libre Baskerville";
+	color: #454545;
+}
+
+#content p b {
+	color: #454545#ff4081;
+}
+
+#content p a:link {
+    color: #454545;
+}
+
+#content p a:visited {
+    color: #454545;
+}
+
+#content p a:hover {
+    color: #454545;
+}
+
+#content p a:active {
+    color: #454545;
+}
+
+#reach {
+	position: relative;
+	float: left;
+	background-image: url("images/block2.jpg");
+	background-repeat: no-repeat;
+	background-size: 50%;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+#social {
+	position: relative;
+	float: right;
+	background-image: url("images/block2.jpg");
+	background-repeat: no-repeat;
+	background-size: 43%;
+	padding-top: 10px;
+	padding-left: 5px;
+}
